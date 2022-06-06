@@ -64,7 +64,7 @@ def stats(update, context):
 
 def start(update, context):
     buttons = ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.dev/nullesbot/undoubtablesource")
+    buttons.buildbutton("Study Channel", "https://t.me/studyhealing")
     buttons.buildbutton("Report Group", "https://t.me/cyberstainbot")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
