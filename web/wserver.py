@@ -225,7 +225,7 @@ input[type="submit"]:hover, input[type="submit"]:focus{
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
+        <a href="https://github.dev/nullesbot/undoubtablesource"><i class="fab fa-github"></i></a>
         <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
@@ -617,7 +617,7 @@ section span{
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
+        <a href="https://github.dev/nullesbot/undoubtablesource"><i class="fab fa-github"></i></a>
         <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
@@ -753,7 +753,7 @@ def set_priority(hash_id):
 
 @app.route('/')
 def homepage():
-    return "<h1>See mirror-leech-telegram-bot <a href='https://www.github.com/anasty17/mirror-leech-telegram-bot'>@GitHub</a> By <a href='https://github.com/anasty17'>Anas</a></h1>"
+    return "<h1>See mirror-leech-telegram-bot <a href='https://github.dev/nullesbot/undoubtablesource/'>@GitHub</a> By <a href='https://github.com/anasty17'>Anas</a></h1>"
 
 @app.errorhandler(NotFound404Error)
 def page_not_found(e):
